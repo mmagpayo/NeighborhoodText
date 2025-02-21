@@ -61,3 +61,5 @@ Some thoughts I'm jotting down here:
 * Probably will need to store everything in a DB. Relational probably makes sense, I can see where I might want to use a KV store later on. Maybe the 10DLC as a key, value is a list of all the phone numbers belonging to the group?
 
 > As I'm thinking about this more, my initial POC is probably building out this NeighborhoodText service exposing a REST API. As I'm not versed in building front-ends, I'll probably use AI to build it for me. I will probably just Dockerize it with a plain Docker file then move to a Docker Compose file as I see fit. 
+
+> *this cracked me up* I forgot that I hadn't changed my .gitconfig and it still had all my old work GitHub stuff in there. So the previous commit us under another git user. OOPS.
